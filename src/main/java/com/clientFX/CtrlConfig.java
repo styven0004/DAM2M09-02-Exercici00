@@ -8,7 +8,14 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
+/**
+ * Controlador de la primera vista: configuració de la connexió al
+ * servidor (protocol, host, port) i nom del jugador.
+ */
 public class CtrlConfig implements Initializable {
+
+    @FXML
+    public TextField txtName;
 
     @FXML
     public TextField txtProtocol;
