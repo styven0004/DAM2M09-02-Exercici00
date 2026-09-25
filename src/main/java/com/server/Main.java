@@ -82,7 +82,7 @@ public class Main extends WebSocketServer {
         }
     }
 
-    private void broadcast(String payload) {
+    private void broadcastToClients(String payload) {
         for (WebSocket conn : clients.sockets()) {
             sendSafe(conn, payload);
         }
@@ -99,7 +99,7 @@ public class Main extends WebSocketServer {
     }
 
     private void broadcastState() {
-        broadcast(buildStateMessage().toString());
+        broadcastToClients(buildStateMessage().toString());
     }
 
     // ----------------- WebSocketServer overrides -----------------

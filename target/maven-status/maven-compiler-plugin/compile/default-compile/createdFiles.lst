@@ -1,0 +1,16 @@
+com\server\Main.class
+com\server\SudokuGenerator.class
+com\clientFX\Main.class
+com\clientCMD\UtilsWS$1.class
+com\server\SudokuGame.class
+com\clientFX\CtrlConfig.class
+com\clientFX\UtilsWS$1.class
+com\server\ClientRegistry$PlayerInfo.class
+com\clientCMD\Main.class
+com\clientFX\CtrlSockets.class
+com\server\ClientRegistry.class
+com\clientFX\CtrlGame.class
+com\clientFX\UtilsWS.class
+com\clientFX\UtilsViews.class
+com\clientFX\CtrlRanking.class
+com\clientCMD\UtilsWS.class

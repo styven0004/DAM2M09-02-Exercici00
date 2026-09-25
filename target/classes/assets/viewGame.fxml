@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" minHeight="560.0" minWidth="760.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clientFX.CtrlGame">
+   <children>
+      <Label fx:id="lblPlayer" text="Juga: " AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+
+      <GridPane fx:id="gridSudoku" style="-fx-background-color: #333333;" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="60.0" />
+
+      <Separator orientation="VERTICAL" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="15.0" />
+
+      <Label text="Jugadors" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="15.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+
+      <VBox fx:id="boxPlayers" prefWidth="170.0" spacing="4.0" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+         <padding>
+            <Insets top="8.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
